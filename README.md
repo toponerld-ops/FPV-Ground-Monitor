@@ -1,4 +1,4 @@
-# FPV Ground Monitor 📡
+# FPV Ground Monitor 
 
 A custom-built open-source FPV ground station monitor built on the **Radxa Zero 3W** SBC, featuring a custom uHAT PCB for power management, a RTL8812AU WiFi dongle for receiving **OpenIPC** video streams from drones via **WFB-ng**.
 
