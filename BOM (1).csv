@@ -1,0 +1,30 @@
+No.,Quantity,Component,Designator,Footprint,LCSC Part,Manufacturer,Price (INR),Category,Notes,Link
+1,14,100nF Capacitor 0603,C1-C14,C0603,C14663,,2,PCB Component,Hand Solder,https://www.lcsc.com/product-detail/C14663.html
+2,1,4.7uH Inductor 0603,L1,L0603,C1034,,4,PCB Component,Hand Solder,https://www.lcsc.com/product-detail/C1034.html
+3,1,100K Resistor 0603,R1,R0603,C25803,,1,PCB Component,Hand Solder,https://www.lcsc.com/product-detail/C25803.html
+4,1,25.5K Resistor 0603,R2,R0603,C22920,,1,PCB Component,Hand Solder,https://www.lcsc.com/product-detail/C22920.html
+5,4,10K Resistor 0603,R3-R6,R0603,C25804,,2,PCB Component,Hand Solder,https://www.lcsc.com/product-detail/C25804.html
+6,1,SS34 Schottky Diode,D1,SOD-123,C108862,,2,PCB Component,Hand Solder,https://www.lcsc.com/product-detail/C108862.html
+7,4,TS-1187A-B-A-B Tactile Switch,SW1-SW4,SW-SMD-4P,C318884,XKB Connection,2,PCB Component,Hand Solder,https://www.lcsc.com/product-detail/C318884.html
+8,1,MP2307DN-LF-Z Buck Converter,U1,SOIC-8N-EP,C18921,MPS,308,PCB Component,Reflow Solder,https://www.lcsc.com/product-detail/C18921.html
+9,3,WS2812B-V5/W RGB LED,U5-U7,LED-SMD-5x5,C2874885,,12,PCB Component,Reflow Solder,https://www.lcsc.com/product-detail/C2874885.html
+10,1,Fuse F1206,F1,F1206,C9900021114,,5,PCB Component,Hand Solder,https://www.lcsc.com/product-detail/C9900021114.html
+11,1,KF301-2P Screw Terminal,P1,CONN-TH,C9900016950,,5,PCB Component,Hand Solder,https://www.lcsc.com/product-detail/C9900016950.html
+12,1,40P 2.54mm GPIO Header,U2,HDR-SMD-40P,C9900016611,,15,PCB Component,Hand Solder,https://www.lcsc.com/product-detail/C9900016611.html
+13,1,USB 3.0 Type-A Vertical Socket,U3,USB-A-TH,C9900010398,,5,PCB Component,Hand Solder,https://www.lcsc.com/product-detail/C9900010398.html
+14,1,1X4P Pin Header 2.54mm,U4,CONN-TH-4P,C9900022166,,3,PCB Component,Hand Solder,https://www.lcsc.com/product-detail/C9900022166.html
+15,1,1X3P Pin Header 2.54mm,U8,HDR-TH-3P,C9900016709,,3,PCB Component,Hand Solder,https://www.lcsc.com/product-detail/C9900016709.html
+16,1,PCB Fabrication + Stencil (JLCPCB - 5 boards),,,,JLCPCB,2060,PCB,,https://jlcpcb.com
+17,1,Radxa Zero 3W 2GB SBC,,,,Radxa,6900,Electronics,,https://radxa.com/products/zeros/zero3w
+18,1,RTL8812AU USB WiFi Dongle,,,,Generic,975,Electronics,,https://robu.in/product/rtl8812au-600mbps-dual-band-wireless-usb-wifi-adapter/
+19,1,Waveshare 7inch HDMI LCD 1024x600,,,,Waveshare,2500,Electronics,,https://robu.in/product/waveshare-7inch-hdmi-lcd/
+20,1,3S 11.1V 2000mAh Li-ion Battery,,,,Generic,900,Electronics,,https://robu.in/product/11-1v-2000mah-3c-3s1p-li-ion-battery-pack/
+21,1,SanDisk 64GB MicroSD A1,,,,SanDisk,550,Electronics,,https://robu.in/product/sandisk-64gb-ultra-microsdxc-uhs-i-card/
+22,1,SSD1306 128x64 OLED Module,,,,Generic,150,Electronics,,https://robu.in/product/0-96-inch-i2c-iic-serial-128x64-oled-lcd-led-display-module/
+23,1,Micro HDMI to HDMI Cable,,,,Generic,200,Electronics,,https://robu.in
+24,1,YIHUA 926 Soldering Station,,,,YIHUA,1440,Tool,,https://robu.in/product/yihua-926-upgrade-version-soldering-iron-station/
+25,1,ELBME G3061 PD65W Hot Plate,,,,ELBME,4989,Tool,,https://www.amazon.in/dp/B0F3TP5X62
+26,1,Noise 65W GaN Charger + USB-C Cable,,,,Noise,2399,Tool,,https://www.amazon.in/dp/B0F9F2RCR4
+27,1,boAt USB-C to USB-C Cable,,,,boAt,349,Tool,,https://www.amazon.in/dp/B0FMRNR4LY
+28,1,SMD Solder Paste (63/37),,,,Generic,300,Tool,,https://robu.in
+TOTAL,,,,,,,23082,,,
