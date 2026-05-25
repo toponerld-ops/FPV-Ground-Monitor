@@ -123,7 +123,7 @@ This project runs **PixelPilot OS** on the Radxa Zero 3W -- a purpose-built Linu
 
 ## Zine Page
 
-![Zine Page](images/ZINE.png)
+![Zine Page](Images/ZINE.png)
 
 ---
 
