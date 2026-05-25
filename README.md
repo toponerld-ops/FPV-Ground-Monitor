@@ -168,4 +168,10 @@ Radxa Zero 3W: https://radxa.com/products/zeros/zero3w
 
 ---
 
+## Top View
+
+![Top View](Images/TOP VIEW)
+
+---
+
 **Made by Aman | Age 16 | Hyderabad, India**
