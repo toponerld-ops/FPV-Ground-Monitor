@@ -168,9 +168,17 @@ Radxa Zero 3W: https://radxa.com/products/zeros/zero3w
 
 ---
 
-## Images
+## Top View
 
 ![Top View](Images/TOP%20VIEW)
+
+## Side view
+
+![Side View](Images/SIDE%20VIEW)
+
+## Bottom View 
+
+![Bottom View](Images/BOTTOM%20VIEW)
 
 ---
 
