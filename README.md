@@ -153,12 +153,10 @@ Sample script for LED status and OLED display coming soon.
 References
 
 PixelPilot: https://github.com/OpenIPC/PixelPilot
-
 WFB-ng: https://github.com/svpcom/wfb-ng
-
 OpenIPC: https://openipc.org
-
 Radxa Zero 3W: https://radxa.com/products/zeros/zero3w
+
 ---
 
 ## Zine Page
