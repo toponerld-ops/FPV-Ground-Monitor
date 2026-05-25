@@ -65,7 +65,7 @@ Commercial alternatives (DJI Goggles, Walksnail) cost $300-600 and lock you into
 | USB-A Socket | USB3.0VerticalTypeA | LCSC C9900010398 | 1 | - |
 | Battery Connector | KF301-2P | LCSC C9900016950 | 1 | - |
 
-Full BOM with LCSC part numbers in `/bom/BOM.csv`
+Full BOM with LCSC part numbers in `BOM(1).csv`
 
 ---
 
