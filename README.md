@@ -85,16 +85,77 @@ The custom uHAT PCB sits on top of the Radxa Zero 3W's 40-pin GPIO header and pr
 - Manufacturer: JLCPCB standard
 
 ---
+### Firmware
+The FPV Ground Monitor runs PixelPilot OS on the Radxa Zero 3W SBC. PixelPilot is an open-source ground station OS built specifically for OpenIPC FPV systems using WFB-ng.
+No custom firmware is required -- PixelPilot handles video decoding, display output, and WiFi link management out of the box.
 
-## Software
+Setup Instructions
+1. Flash PixelPilot OS
 
-This project runs **PixelPilot OS** on the Radxa Zero 3W -- a purpose-built Linux image for OpenIPC ground stations.
+Download the latest PixelPilot OS image for Radxa Zero 3W from:
+https://github.com/OpenIPC/PixelPilot/releases
+Flash to a 64GB microSD card using Balena Etcher
+Insert microSD into the Radxa Zero 3W
 
-- Download: [PixelPilot GitHub](https://github.com/OpenIPC/PixelPilot)
-- Flash to microSD with Balena Etcher
-- RTL8812AU driver is included in PixelPilot OS
-- WFB-ng handles the actual WiFi broadcast link
+2. Hardware Assembly
 
+Plug the RTL8812AU WiFi dongle into the USB-A port on the uHAT
+Connect the 3S 11.1V battery to the XT30 connector on the uHAT
+Connect the 7" HDMI display via micro HDMI to HDMI cable
+Stack the uHAT onto the Radxa Zero 3W 40-pin GPIO header
+
+3. Power On
+
+Press the power button on the uHAT
+PixelPilot OS boots automatically
+The RTL8812AU driver is included in PixelPilot OS -- no manual setup needed
+
+4. Connecting to Drone
+
+Power on your OpenIPC drone with WFB-ng configured
+PixelPilot automatically scans for WFB-ng streams on 5.8GHz
+Video feed appears on the HDMI display within 5-10 seconds
+
+
+WFB-ng Configuration
+For the drone side (MAR Racing Drone AIO FC with SSC338Q + IMX415):
+
+WFB-ng frequency: 5745 MHz (default)
+TX power: set in /etc/wfb.conf on the drone
+Recommended MCS index: 1 (balance of range and bitrate)
+Encoding: H.265 for best quality at low bitrate
+
+For full WFB-ng configuration guide:
+https://github.com/svpcom/wfb-ng/wiki
+
+GPIO Button and LED Control (Optional)
+The uHAT exposes 4 buttons and 3 WS2812B RGB LEDs via the Radxa Zero 3W GPIO. A Python script can be run on boot to handle these.
+Dependencies:
+pip install RPi.GPIO rpi-ws281x
+Button GPIO pins (BCM numbering):
+
+BTN1: GPIO17 (Pin 11)
+BTN2: GPIO27 (Pin 13)
+BTN3: GPIO22 (Pin 15)
+PWR BTN: GPIO23 (Pin 16)
+
+LED data pin:
+
+GPIO_LED1: GPIO24 (Pin 18) -- WS2812B data in
+
+OLED (SSD1306 I2C):
+
+SDA: GPIO2 (Pin 3)
+SCL: GPIO3 (Pin 5)
+
+Sample script for LED status and OLED display coming soon.
+
+References
+
+PixelPilot: https://github.com/OpenIPC/PixelPilot
+WFB-ng: https://github.com/svpcom/wfb-ng
+OpenIPC: https://openipc.org
+Radxa Zero 3W: https://radxa.com/products/zeros/zero3w
 ---
 
 ## Zine Page
