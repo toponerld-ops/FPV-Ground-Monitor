@@ -84,30 +84,6 @@ The custom uHAT PCB sits on top of the Radxa Zero 3W's 40-pin GPIO header and pr
 - Layers: 2
 - Manufacturer: JLCPCB standard
 
-![PCB 3D View](images/pcb_3d.png)
-
----
-
-## Files
-
-```
-FPV-Ground-Monitor/
-├── README.md
-├── JOURNAL.md
-├── bom/
-│   └── BOM.csv
-├── gerbers/
-│   └── gerbers.zip
-├── pcb/
-│   └── uHAT.epro
-├── schematic/
-│   └── schematic.pdf
-├── firmware/
-│   └── README.md (PixelPilot OS setup instructions)
-└── images/
-    └── pcb_3d.png
-```
-
 ---
 
 ## Software
